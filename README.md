@@ -116,12 +116,12 @@ Untuk menjalankan proyek ini di komputer Anda, ikuti langkah-langkah berikut:
 
 1.  **Clone repositori ini**
     ```bash
-    git clone [https://github.com/NAMA_USER_ANDA/NAMA_REPO_ANDA.git](https://github.com/NAMA_USER_ANDA/NAMA_REPO_ANDA.git)
+    git clone [https://github.com/misbachrye/quiz-app-react.git](https://github.com/misbachrye/quiz-app-react.git)
     ```
 
 2.  **Masuk ke direktori proyek**
     ```bash
-    cd NAMA_REPO_ANDA
+    cd quiz-app-react
     ```
 
 3.  **Install semua dependensi**
@@ -134,8 +134,6 @@ Untuk menjalankan proyek ini di komputer Anda, ikuti langkah-langkah berikut:
     npm run dev
     ```
     Aplikasi akan tersedia di `http://localhost:5173` (atau port lain yang tersedia).
-
----
 
 ## 📜 Skrip yang Tersedia
 
