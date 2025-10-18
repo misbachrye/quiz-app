@@ -1,0 +1,23 @@
+:root {
+  --primary-gradient: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+  --primary-color-dark: #66a6ff;
+
+  --bg-color: #121212; 
+  --card-bg: #1e1e1e; 
+  --text-dark: #EAEAEA; 
+  --text-light: #A0A0A0; 
+  --border-color: #333333; 
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color); 
+  color: var(--text-dark); 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}

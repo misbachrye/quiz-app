@@ -1,0 +1,66 @@
+.resultContainer h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resultInfo {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  display: inline-flex; 
+  align-items: center; 
+  gap: 0.5rem;
+}
+
+.resultInfo span {
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+.correctNumber {
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 0 0.2rem;
+}
+
+.scoreInfo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scoreInfo span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color-dark);
+}
+
+.button {
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 12px;
+  background-image: var(--primary-gradient);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(49, 98, 201, 0.25);
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 20px rgba(49, 98, 201, 0.35);
+}
